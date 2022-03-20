@@ -1,0 +1,117 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add to cart page</title>
+        <link rel="stylesheet" href="style.css">
+       <!-- linking google font -->
+        <link
+        href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet"
+      />
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/6f5013579e.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    
+ <!-- nav bar starts here -->
+ <div id="nav-bar">
+    <div class="navcontent">
+        <a href="./index.html"> 
+             <span class="logo">SHOP</span>
+            <span class=" logo2" >LANE</span>
+        </a>
+    </div>
+    <div class="navcontent1">
+        <span>  <a href="./index.html" class="anchor"> HOME</a> </span>
+        <span> <a href="./index.html" class="anchor"> CLOTHINGS</a> </span>
+        <span><a href="./index.html" class="anchor">ACCESSORIES</a></span>
+    </div>
+    <div class="icons">
+        <i class="fa fa-search"></i>
+        <i class="fa fa-shopping-cart"  id="addtocardid">
+            <span id="cart-count">0</span>
+          </i>
+          <img src="https://scontent.fdel26-1.fna.fbcdn.net/v/t39.30808-1/262049275_3118915668331552_703183146417783690_n.jpg?stp=dst-jpg_p160x160&_nc_cat=111&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=88z4OfoiMqgAX-4bnkb&_nc_ht=scontent.fdel26-1.fna&oh=00_AT_I5JsAjkfObZyALyZ1T0-hej7i9SnHs84QX9hdsIMefg&oe=62399BFC" alt="" class="profileimg">
+    </div>
+</div> 
+<!-- nav bar ends here -->
+
+
+<div id="card-maindiv" style="display: flex;"  >
+    <div class="second-main">
+
+
+        <h3 id="name-checkout">Checkout</h3>
+        <p  id="leftsifecheckout">Total items: <span id="noofitemsin">0 </span>  </p>
+        <div id="checkoutleftside" style="display: block;">
+        
+
+        
+        </div>
+    </div>
+
+
+    <div class="second-main2">
+
+        
+        <div id="totalamount" style="display: block;">
+            <h2>Total Amount</h2>
+        
+            <p>Total Amount: <span id="totalprice2">0</span></p>
+ 
+          <button onclick="placeorderclicked()" > Place Order</button>
+        
+        
+        
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<img src="https://raw.githubusercontent.com/sky-sudhir/js-5th-assignment/main/edyodalogo.png" alt="" class="edyodalogo">
+<footer>
+    <div><h4>ONLINE STORE</h4>
+    <p>MEN CLOTHING</p>
+    <p>WOMEN CLOTHING</p>
+    <p>MEN ACCESSORIES</p>
+    <p>WOMEN ACCESSORIES</p>
+    </div>
+    <div><h4>HELPFUL LINKS</h4>
+    <p>HOME</p>
+    <p>ABOUT</p>
+    <p>CONTACT</p>
+   
+    </div>
+    <div><h4>PATNERS</h4>
+    <p>ZARA</p>
+    <p>PANTALOONS</p>
+    <p>LEVIS</p>
+    <p>UCB</p>
+    <p>+ MANY MARE</p>
+    </div>
+    <div><h4>ADDRESS</h4>
+    <p>BUILDING 101</p>
+    <p>CENTRAL AVENUE</p>
+    <p>LA - 902722</p>
+    <p>UNITED STATES</p>
+    </div>
+</footer>
+
+    <script src="./cart.js"></script>
+</body>
+</html>
