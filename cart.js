@@ -59,7 +59,7 @@ if(itemoflocal.length!==0){
 
     
     function placeorderclicked(){
-        location.href="orderplaced.html"
+        location.href="detail.html"
         localStorage.clear()
     
     
